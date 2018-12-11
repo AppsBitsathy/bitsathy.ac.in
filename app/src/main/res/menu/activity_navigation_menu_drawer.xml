@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:checkable="true"
+            android:icon="@drawable/i_home"
+            android:id="@+id/nav_home"
+            android:title="Home" />
+    </group>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:checkable="true"
+            android:icon="@drawable/i_camps"
+            android:id="@+id/nav_camps"
+            android:title="Camps" />
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+        >
+    <item android:title="About BIT">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_glance"
+                android:id="@+id/bit_glance"
+                android:title="BIT at a glance" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_histroy"
+                android:id="@+id/history"
+                android:title="Our History and Tradition" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_chairman"
+                android:id="@+id/office_chairman"
+                android:title="Office of the Chairman" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_achieve"
+                android:id="@+id/achievements"
+                android:title="Achievements" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_green"
+                android:id="@+id/initiatives"
+                android:title="Sustainability and Green Intiatives" />
+        </menu>
+    </item>
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+        >
+    <item android:title="Academics">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_department"
+                android:id="@+id/departments"
+                android:title="Departments" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_programmes"
+                android:id="@+id/programmes"
+                android:title="Programmes" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_exam"
+                android:id="@+id/exam"
+                android:title="Examination" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_coe"
+                android:id="@+id/coe"
+                android:title="Centres of Excellence" />
+        </menu>
+    </item>
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+        >
+    <item android:title="Admissions">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_overview"
+                android:id="@+id/admission_overview"
+                android:title="Admissions Overview" />
+            <item
+                android:id="@+id/adm_india"
+                android:enabled="false"
+                android:icon="@drawable/i_sub"
+                android:title="Indian Student Admission" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_india"
+                android:id="@+id/india_be"
+                android:title="B.E / B.Tech" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_india"
+                android:id="@+id/india_me"
+                android:title="M.E / M.tech" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_india"
+                android:id="@+id/india_phd"
+                android:title="PhD" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_india"
+                android:id="@+id/india_mba"
+                android:title="MBA" />
+            <item
+                android:id="@+id/adm_others"
+                android:enabled="false"
+                android:icon="@drawable/i_sub"
+                android:title="NRI / PIO / FN / Gulf Countries" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_other"
+                android:id="@+id/others_be"
+                android:title="B.E / B.Tech" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_other"
+                android:id="@+id/others_me"
+                android:title="M.E / M.tech" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_other"
+                android:id="@+id/others_phd"
+                android:title="PhD" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_other"
+                android:id="@+id/others_mba"
+                android:title="MBA" />
+            <item
+                android:id="@+id/admission_other"
+                android:icon="@drawable/i_sub"
+                android:enabled="false"
+                android:title="Direct Admission" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_direct_me"
+                android:id="@+id/lateral"
+                android:title="B.E / B.Tech (Lateral Entry) Admiission" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_direct_me"
+                android:id="@+id/direct_me"
+                android:title="M.E / M.tech Direct Admission" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_apply"
+                android:id="@+id/apply"
+                android:title="Admission - Contact" />
+        </menu>
+    </item>
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+
+        android:enabled="true">
+    <item android:title="Life at BIT">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_clubs"
+                android:id="@+id/clubs"
+                android:title="Clubs and Societies" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_infra"
+                android:id="@+id/infra"
+                android:title="Infrastructure" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_unique"
+                android:id="@+id/features"
+                android:title="Unique Features" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_enterpreneur"
+                android:id="@+id/entrepreneur"
+                android:title="Entrepreneur life" />
+        </menu>
+    </item>
+    </group>
+
+
+    <group>
+        <item android:title="Placements">
+        <menu>
+            <item
+            android:checkable="true"
+            android:icon="@drawable/i_placement"
+            android:id="@+id/placements"
+            android:title="Placements" />
+        </menu>
+        </item>
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+        >
+    <item android:title="Gallery">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_campus"
+                android:id="@+id/gal_camps"
+                android:title="Campus Gallery" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_event"
+                android:id="@+id/gal_event"
+                android:title="Event Gallery" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_video"
+                android:id="@+id/gal_video"
+                android:title="Video Gallery" />
+        </menu>
+    </item>
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+        >
+    <item android:title="Facilities">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_library"
+                android:id="@+id/learning_centre"
+                android:title="Learning Centre" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_camps_facility"
+                android:id="@+id/facilities_campus"
+                android:title="Campus Facilities" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_sports"
+                android:id="@+id/facilities_sports"
+                android:title="Sports Facilities" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_cloud"
+                android:id="@+id/bit_cloud"
+                android:title="BIT Cloud" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_bus"
+                android:id="@+id/bus"
+                android:title="Bus College Facilities" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_hostel"
+                android:id="@+id/facilities_hostel"
+                android:title="Hostel Facilities" />
+        </menu>
+    </item>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        >
+
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        >
+    <item android:title="Students">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_counseling"
+                android:id="@+id/stud_counselling"
+                android:title="Students Counselling" />
+
+        </menu>
+    </item>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        >
+    <item android:title="Sites">
+        <menu>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_fb"
+                android:id="@+id/fb"
+                android:title="Facebook/bitsathyindia " />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_workplace"
+                android:id="@+id/workplace"
+                android:title="Facebook Workplace" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_twitter"
+                android:id="@+id/twitter"
+                android:title="Twitter/bitsathyindia" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_youtube"
+                android:id="@+id/youtube"
+                android:title="Youtube/bitsathyindia" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_insta"
+                android:id="@+id/insta"
+                android:title="Instagram/lifeatbit" />
+            <item
+                android:checkable="true"
+                android:icon="@drawable/i_gplus"
+                android:id="@+id/gplus"
+                android:title="Google+" />
+            <!--<item
+                android:checkable="true"
+android:icon="@drawable/ic_menu_share"
+                android:id="@+id/workplace"
+                android:title="Facebook Workplace" />-->
+        </menu>
+    </item>
+
+    </group>
+
+
+
+
+
+
+</menu>
